@@ -1,0 +1,95 @@
+# ===============================
+# OS Files
+# ===============================
+.DS_Store
+Thumbs.db
+
+# ===============================
+# Editors
+# ===============================
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ===============================
+# Python
+# ===============================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.venv/
+venv/
+env/
+
+# Environment variables
+.env
+.env.*
+
+# ===============================
+# Secrets & Keys
+# ===============================
+*.pem
+*.key
+*.crt
+*.csr
+*.p12
+*.pfx
+*.kubeconfig
+kubeconfig
+secrets/
+**/secrets/*
+*.age
+
+# ===============================
+# Terraform
+# ===============================
+.terraform/
+*.tfstate
+*.tfstate.*
+terraform.tfvars
+terraform.tfvars.json
+crash.log
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+.terraform.lock.hcl
+
+# ===============================
+# Kubernetes
+# ===============================
+*.kubeconfig
+
+# SOPS encrypted secrets (optional)
+*.dec.yaml
+
+# ===============================
+# Logs
+# ===============================
+*.log
+logs/
+
+# ===============================
+# Temporary Files
+# ===============================
+tmp/
+temp/
+.cache/
+
+# ===============================
+# Local Docker
+# ===============================
+docker-compose.override.yml
+
+# ===============================
+# Archives
+# ===============================
+*.zip
+*.tar
+*.gz
+*.7z
