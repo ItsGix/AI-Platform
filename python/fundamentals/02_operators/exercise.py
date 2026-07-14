@@ -15,6 +15,9 @@ if cluster_ready:
 else:
     print("Cluster Not Ready")
 
+
+# Creating a status variable using a conditional (ternary) expression.
+# This is for practice, so the result is intentionally printed twice.
 status = "Cluster Ready" if cluster_ready else "Cluster Not Ready"
 
 print(status)
