@@ -43,7 +43,7 @@ This repository documents my journey towards becoming an **AI Platform Engineer*
 ### Fundamentals
 
 - [x] Module 01 - Variables & Data Types
-- [ ] Module 02 - Operators
+- [x] Module 02 - Operators
 - [ ] Module 03 - Conditionals
 - [ ] Module 04 - Loops
 - [ ] Module 05 - Functions
