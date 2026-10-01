@@ -1,40 +1,127 @@
 # AI Platform Engineering Journey
 
-> A repository documenting my transition from Infrastructure Operations Engineering into AI Platform Engineering through hands-on projects, automation, and continuous learning.
+> A hands-on learning and homelab project documenting my progression from Infrastructure Operations Engineering towards DevOps, Platform Engineering and AI Platform Engineering.
+
+This repository combines structured learning, practical exercises, infrastructure automation and a working homelab environment.
+
+The goal is not simply to deploy technologies, but to understand how they work and demonstrate that knowledge through documented learning and practical projects.
 
 ---
 
 ## About Me
 
-I currently work as an **Infrastructure Operations Engineer Compliance** with experience supporting enterprise and air-gapped environments.
+I currently work as an **Infrastructure Operations Engineer (Compliance)** supporting enterprise infrastructure, including restricted and air-gapped environments.
 
-My current experience includes:
+My existing experience includes:
 
 - Windows Server Administration
 - Microsoft SCCM / MECM
 - WSUS
 - VMware vSphere / ESXi
 - Proxmox VE
-- Tenable.SC Vulnerability Management
-- Enterprise Infrastructure Support
+- Tenable.sc Vulnerability Management
 - Server Compliance & Patch Management
+- Enterprise Infrastructure Support
 - Infrastructure Troubleshooting
 - PowerShell Automation
 - Networking Fundamentals
 
-This repository documents my journey towards becoming an **AI Platform Engineer**, focusing on modern infrastructure, automation, Kubernetes, and AI workloads.
+I am currently developing the skills required to move towards:
+
+- DevOps Engineering
+- Platform Engineering
+- AI Platform Engineering
+
+My main areas of development are:
+
+- Python
+- Linux
+- Git & GitHub
+- Docker
+- Kubernetes
+- Terraform
+- Ansible
+- CI/CD
+- Cloud Platforms
+- AI Infrastructure
+- GPU-based AI workloads
+
+---
+
+# Current Focus
+
+## Python Fundamentals
+
+I am currently working through the **Boot.dev DevOps Engineer learning path**, starting with Python fundamentals.
+
+Rather than copying course solutions into this repository, I use Boot.dev as the structured learning platform and document:
+
+- Concepts I have learned
+- Notes written in my own words
+- Original Python exercises
+- Infrastructure-focused examples
+- Practical applications to my homelab
+
+Current course:
+
+**Boot.dev → Learn Python for Beginners**
+
+| Chapter | Status |
+|---|---|
+| 01 - Introduction | 🔄 In Progress |
+| 02 - Variables | ⬜ Not Started |
+| 03 - Functions | ⬜ Not Started |
+| 04 - Scope | ⬜ Not Started |
+| 05 - Testing & Debugging | ⬜ Not Started |
+| 06 - Computing | ⬜ Not Started |
+| 07 - Comparisons | ⬜ Not Started |
+| 08 - Loops | ⬜ Not Started |
+| 09 - Lists | ⬜ Not Started |
+| 10 - Dictionaries | ⬜ Not Started |
+| 11 - Sets | ⬜ Not Started |
+| 12 - Errors | ⬜ Not Started |
+| 13 - Type Hints | ⬜ Not Started |
+| 14 - Practice | ⬜ Not Started |
+| 15 - Quiz | ⬜ Not Started |
+
+Boot.dev learning work can be found under:
+
+`python/bootdev/`
+
+My previous Python fundamentals exercises are retained under:
+
+`python/fundamentals/`
+
+---
+
+# Learning Philosophy
+
+This repository separates **having technology running** from **understanding and deliberately learning that technology**.
+
+For example, I already operate a Kubernetes environment in my homelab, but Kubernetes will remain an active learning area until I have worked through the fundamentals and demonstrated that knowledge through this repository.
+
+For each major topic I aim to:
+
+1. Learn the core concepts.
+2. Document them in my own words.
+3. Complete original exercises.
+4. Apply the concepts to infrastructure-related scenarios.
+5. Use the technology in my homelab.
+6. Automate or improve the environment where appropriate.
+7. Commit meaningful progress to GitHub.
 
 ---
 
 # Learning Roadmap
 
-## Version Control
+## Git & GitHub
 
-- [x] Git Fundamentals
-- [ ] Branching Strategies
+- [x] Core Git Fundamentals
+- [ ] Branching
 - [ ] Merge Conflicts
 - [ ] Pull Requests
-- [ ] GitHub Workflows
+- [ ] GitHub Actions
+- [ ] CI/CD Workflows
 
 ---
 
@@ -42,6 +129,7 @@ This repository documents my journey towards becoming an **AI Platform Engineer*
 
 ### Fundamentals
 
+<<<<<<< HEAD
 - [x] Module 01 - Variables & Data Types
 - [x] Module 02 - Operators
 - [ ] Module 03 - Conditionals
@@ -52,34 +140,128 @@ This repository documents my journey towards becoming an **AI Platform Engineer*
 - [ ] Module 08 - File Handling
 - [ ] Module 09 - Exceptions
 - [ ] Module 10 - Object-Oriented Programming
+=======
+Currently being completed through Boot.dev.
+>>>>>>> 98c8536 (learning: begin Boot.dev Python fundamentals)
 
-### Intermediate
+- [ ] Variables & Data Types
+- [ ] Functions
+- [ ] Scope
+- [ ] Comparisons
+- [ ] Conditionals
+- [ ] Loops
+- [ ] Lists
+- [ ] Dictionaries
+- [ ] Sets
+- [ ] Error Handling
+- [ ] Type Hints
+- [ ] Testing & Debugging
 
-- [ ] Virtual Environments
-- [ ] Requests
+### Python for Infrastructure
+
+- [ ] File Handling
 - [ ] JSON
+- [ ] HTTP Requests
 - [ ] REST APIs
+- [ ] Virtual Environments
+- [ ] Python Packaging
+- [ ] Logging
+- [ ] Environment Variables
+- [ ] API Authentication
+
+### Python for Platform Engineering
+
 - [ ] FastAPI
-- [ ] Async Python
-
-### AI & Infrastructure
-
+- [ ] Proxmox API
 - [ ] Docker SDK
 - [ ] Kubernetes Python Client
-- [ ] Proxmox API
-- [ ] Ollama API
-- [ ] OpenAI API
-- [ ] AI Automation Projects
+- [ ] Infrastructure Automation
+- [ ] Monitoring / Health Check Tools
+
+### Python for AI Infrastructure
+
+- [ ] AI Model APIs
+- [ ] OpenAI-compatible APIs
+- [ ] Local Model APIs
+- [ ] Model Serving Automation
+- [ ] GPU Workload Automation
+- [ ] AI Platform Tooling
+
+---
+
+## Linux
+
+- [ ] Linux Fundamentals
+- [ ] Filesystem & Permissions
+- [ ] Users & Groups
+- [ ] Processes
+- [ ] Networking
+- [ ] Services / systemd
+- [ ] Package Management
+- [ ] Logging
+- [ ] Bash / Shell Scripting
+- [ ] Linux Troubleshooting
+
+---
+
+## Docker & Containers
+
+- [ ] Container Fundamentals
+- [ ] Images
+- [ ] Dockerfiles
+- [ ] Volumes
+- [ ] Networking
+- [ ] Docker Compose
+- [ ] Container Security
+- [ ] Container Troubleshooting
+
+---
+
+## Kubernetes
+
+### Fundamentals
+
+- [ ] Kubernetes Architecture
+- [ ] Control Plane
+- [ ] Worker Nodes
+- [ ] Pods
+- [ ] Deployments
+- [ ] ReplicaSets
+- [ ] Services
+- [ ] Namespaces
+- [ ] ConfigMaps
+- [ ] Secrets
+- [ ] Storage
+- [ ] Ingress
+- [ ] Resource Requests & Limits
+- [ ] Health Probes
+
+### Platform Engineering
+
+- [ ] Helm
+- [ ] RBAC
+- [ ] Network Policies
+- [ ] Observability
+- [ ] Persistent Storage
+- [ ] GPU Workloads
+- [ ] Application Deployment
+- [ ] Kubernetes Troubleshooting
+- [ ] Upgrade Strategy
+- [ ] High Availability Concepts
 
 ---
 
 ## Terraform
 
 - [ ] HCL Fundamentals
-- [ ] Variables & Outputs
+- [ ] Providers
+- [ ] Resources
+- [ ] Variables
+- [ ] Outputs
+- [ ] State
 - [ ] Modules
-- [ ] State Management
 - [ ] Proxmox Provider
+- [ ] VM Provisioning
 - [ ] Infrastructure Automation
 
 ---
@@ -89,79 +271,79 @@ This repository documents my journey towards becoming an **AI Platform Engineer*
 - [ ] YAML Fundamentals
 - [ ] Inventory
 - [ ] Playbooks
-- [ ] Roles
+- [ ] Variables
 - [ ] Templates
-- [ ] Kubernetes Automation
+- [ ] Roles
+- [ ] Idempotency
+- [ ] Linux Configuration
+- [ ] Kubernetes Node Configuration
 
 ---
 
-## Kubernetes
+## CI/CD
 
-- [ ] Core Concepts
-- [ ] Pods
-- [ ] Deployments
-- [ ] Services
-- [ ] ConfigMaps
-- [ ] Secrets
-- [ ] Storage
-- [ ] Networking
-- [ ] Helm
-- [ ] Monitoring
-- [ ] GitOps
+- [ ] GitHub Actions
+- [ ] Automated Testing
+- [ ] Linting
+- [ ] Build Pipelines
+- [ ] Container Builds
+- [ ] Security Scanning
+- [ ] Deployment Pipelines
+- [ ] GitOps Concepts
 
 ---
 
-## AI Platform
+## Cloud
 
-- [ ] Local LLMs
-- [ ] llama.cpp
-- [ ] Open WebUI
-- [ ] Ollama
-- [ ] Vector Databases
-- [ ] RAG
-- [ ] AI Infrastructure
-- [ ] GPU Optimisation
+Future learning will include at least one major cloud platform.
 
----
+Potential focus:
 
-# Repository Structure
+- Azure
+- AWS
 
-```
-python/         Python learning and automation
-terraform/      Infrastructure as Code
-kubernetes/     Kubernetes manifests
-ansible/        Configuration management
-automation/     Infrastructure automation
-api/            API integrations
-ai/             AI workloads and experiments
-docs/           Documentation and notes
-diagrams/       Architecture diagrams
-```
+Topics will include:
+
+- Compute
+- Networking
+- Identity
+- Storage
+- Infrastructure as Code
+- Kubernetes
+- Monitoring
+- Security
 
 ---
 
-# Homelab
+# Homelab Platform
 
-My learning environment is built around a self-hosted homelab.
+Alongside the structured learning path, I operate a homelab used to apply these technologies in a real environment.
 
-Current infrastructure includes:
+## Proxmox
 
-- Proxmox VE
-- K3s Kubernetes Cluster
-- Dedicated RTX 3060 AI Inference Node
-- Open WebUI
-- llama.cpp
-- Docker
-- Cloudflare Tunnels
-- UniFi Networking
-- OpenWrt x86 Router
-- Multiple Ubuntu Server VM's and LXC's
-- AMP Game hosting
-- Windows VMs and 2 RHEL VMs
+The lab currently runs on Proxmox VE and provides the virtual infrastructure for the platform.
+
+Proxmox will eventually be managed increasingly through:
+
+- Terraform
+- Ansible
+- Python
+- Infrastructure-as-Code workflows
+
 ---
 
-# Objective
+## Kubernetes / K3s
 
-My goal is to combine my enterprise infrastructure background with modern cloud-native technologies to transition into an AI Platform Engineering role.
+A working K3s cluster is already deployed.
 
-This repository serves as both a learning journal and a portfolio, documenting my progress through practical projects, automation, and hands-on experimentation.
+Current topology:
+
+```text
+K3s Cluster
+
+Control Plane
+└── k3s-control
+
+Workers
+├── k3s-worker-1
+└── k3s-worker-2
