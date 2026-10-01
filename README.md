@@ -129,20 +129,7 @@ For each major topic I aim to:
 
 ### Fundamentals
 
-<<<<<<< HEAD
-- [x] Module 01 - Variables & Data Types
-- [x] Module 02 - Operators
-- [ ] Module 03 - Conditionals
-- [ ] Module 04 - Loops
-- [ ] Module 05 - Functions
-- [ ] Module 06 - Collections
-- [ ] Module 07 - Modules
-- [ ] Module 08 - File Handling
-- [ ] Module 09 - Exceptions
-- [ ] Module 10 - Object-Oriented Programming
-=======
 Currently being completed through Boot.dev.
->>>>>>> 98c8536 (learning: begin Boot.dev Python fundamentals)
 
 - [ ] Variables & Data Types
 - [ ] Functions
