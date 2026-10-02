@@ -88,9 +88,9 @@ Boot.dev learning work can be found under:
 
 `python/bootdev/`
 
-My previous Python fundamentals exercises are retained under:
+My original infrastructure-focused Python exercises are available under:
 
-`python/fundamentals/`
+`python/labs/`
 
 ---
 
@@ -131,7 +131,7 @@ For each major topic I aim to:
 
 Currently being completed through Boot.dev.
 
-- [ ] Variables & Data Types
+- [x] Variables & Data Types
 - [ ] Functions
 - [ ] Scope
 - [ ] Comparisons
