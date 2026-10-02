@@ -2,20 +2,33 @@
 
 ## Status
 
-In Progress
+Complete
 
-## Concepts Learned
+## Lessons Completed
 
-Add concepts here as I complete the chapter.
+- Welcome to Learn Python for Beginners
+- Fix Your First Bug
+- The Console
+- What Is Code?
+- Multiple Instructions
+- Syntax Errors
+- Syntax Errors Quiz
+- Lesson Failure
+- What Is Python?
+- Game Statistics
+- Shop Response
 
-## Notes
+## Concepts Covered
 
-Notes from the chapter will be written here in my own words.
+- Using the console to view program output
+- Running multiple instructions in order
+- Recognising syntax errors and fixing simple bugs
+- Writing basic Python statements to produce output
 
-## Practice
+## Reflection
 
-Original exercises created while learning will be stored in this directory.
+This chapter introduced the workflow of reading, running and fixing short Python programs. I practised using console output to check what a program does and spotting small mistakes that prevent it from running.
 
 ## Completed
 
-Not yet completed.
+Chapter 01 completed on 2026-10-02.

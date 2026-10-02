@@ -22,3 +22,14 @@ AI Platform Engineering skills.
 **Next**
 
 - Begin Chapter 1: Introduction.
+
+### 2026-10-02
+
+**Boot.dev**
+
+- Completed Chapter 01: Introduction.
+- Practised using the Python console, running instructions in order, recognising syntax errors and fixing simple bugs.
+
+**Next**
+
+- Begin Chapter 02: Variables.

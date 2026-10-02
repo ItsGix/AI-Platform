@@ -68,7 +68,7 @@ Current course:
 
 | Chapter | Status |
 |---|---|
-| 01 - Introduction | 🔄 In Progress |
+| 01 - Introduction | ✅ Complete |
 | 02 - Variables | ⬜ Not Started |
 | 03 - Functions | ⬜ Not Started |
 | 04 - Scope | ⬜ Not Started |

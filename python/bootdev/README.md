@@ -13,7 +13,7 @@ Boot.dev course solutions are not copied into this repository.
 
 ### Learn Python for Beginners
 
-- [ ] 01 - Introduction
+- [x] 01 - Introduction
 - [ ] 02 - Variables
 - [ ] 03 - Functions
 - [ ] 04 - Scope
