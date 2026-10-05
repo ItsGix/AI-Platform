@@ -70,7 +70,7 @@ Current course:
 |---|---|
 | 01 - Introduction | ✅ Complete |
 | 02 - Variables | ✅ Complete |
-| 03 - Functions | ⬜ Not Started |
+| 03 - Functions | ✅ Complete |
 | 04 - Scope | ⬜ Not Started |
 | 05 - Testing & Debugging | ⬜ Not Started |
 | 06 - Computing | ⬜ Not Started |
@@ -132,7 +132,7 @@ For each major topic I aim to:
 Currently being completed through Boot.dev.
 
 - [x] Variables & Data Types
-- [ ] Functions
+- [x] Functions
 - [ ] Scope
 - [ ] Comparisons
 - [ ] Conditionals
