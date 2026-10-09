@@ -71,7 +71,7 @@ Current course:
 | 01 - Introduction | ✅ Complete |
 | 02 - Variables | ✅ Complete |
 | 03 - Functions | ✅ Complete |
-| 04 - Scope | ⬜ Not Started |
+| 04 - Scope | ✅ Complete |
 | 05 - Testing & Debugging | ⬜ Not Started |
 | 06 - Computing | ⬜ Not Started |
 | 07 - Comparisons | ⬜ Not Started |
@@ -133,7 +133,7 @@ Currently being completed through Boot.dev.
 
 - [x] Variables & Data Types
 - [x] Functions
-- [ ] Scope
+- [x] Scope
 - [ ] Comparisons
 - [ ] Conditionals
 - [ ] Loops
