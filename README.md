@@ -72,7 +72,7 @@ Current course:
 | 02 - Variables | ✅ Complete |
 | 03 - Functions | ✅ Complete |
 | 04 - Scope | ✅ Complete |
-| 05 - Testing & Debugging | ⬜ Not Started |
+| 05 - Testing & Debugging | ✅ Complete |
 | 06 - Computing | ⬜ Not Started |
 | 07 - Comparisons | ⬜ Not Started |
 | 08 - Loops | ⬜ Not Started |
@@ -142,7 +142,7 @@ Currently being completed through Boot.dev.
 - [ ] Sets
 - [ ] Error Handling
 - [ ] Type Hints
-- [ ] Testing & Debugging
+- [x] Testing & Debugging
 
 ### Python for Infrastructure
 

@@ -17,7 +17,7 @@ Boot.dev course solutions are not copied into this repository.
 - [x] 02 - Variables
 - [x] 03 - Functions
 - [x] 04 - Scope
-- [ ] 05 - Testing and Debugging
+- [x] 05 - Testing and Debugging
 - [ ] 06 - Computing
 - [ ] 07 - Comparisons
 - [ ] 08 - Loops
