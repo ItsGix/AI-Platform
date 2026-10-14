@@ -1,0 +1,11 @@
+flowchart TD
+    user["Browser / user"] --> ui["Open WebUI"]
+    subgraph k3s["K3s apps / target"]
+        ui --> api["FastAPI gateway"]
+    end
+    subgraph gpu["GPU VM / target"]
+        inference["llama.cpp server"] --> device["RTX 3060 · 12 GB VRAM"]
+    end
+    api -->|"Model API request"| inference
+    inference -->|"Generated response"| api
+    api -->|"Chat response"| ui

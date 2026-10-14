@@ -1,0 +1,14 @@
+flowchart TD
+    subgraph compute["Compute / Proxmox 1"]
+        subgraph cluster["Existing K3s VMs"]
+            cp["k3s-control"] -->|"Cluster management"| w1["k3s-worker-1"]
+            cp -->|"Cluster management"| w2["k3s-worker-2"]
+        end
+        subgraph backend["GPU VM target"]
+            vm["Dedicated inference VM"] -->|"PCIe passthrough"| gpu["RTX 3060 · 12 GB"]
+        end
+        apps["Other homelab services — outside migration scope"]
+    end
+    subgraph storage["Storage / Proxmox 2"]
+        shares["Network shares · 2 × 8 TB disks"]
+    end
